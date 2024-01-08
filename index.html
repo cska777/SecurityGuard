@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site concernant une entreprise de sécurité privée">
+    <meta name="canonical" href="securityguard.com">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/font/flaticon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Security Guard</title>
+</head>
+
+<body>
+    <header>
+        <section id="premiereSectionHeader" class="d-flex justify-content-between">
+            <div id="horaires">Horaires d'ouvertures: 8h00-21h00</div>
+            <div id="reseauxHeader">Suivez-nous: <i class="fa-brands fa-facebook px-1"></i> <i
+                    class="fa-brands fa-twitter px-1"></i> <i class="fa-brands fa-linkedin px-1"></i> <i
+                    class="fa-brands fa-square-instagram px-1"></i> <i class="fa-brands fa-youtube px-1"></i> </div>
+        </section>
+
+        <section id="deuxiemeSectionHeader" class="d-flex">
+            <img src="assets/images/saftyfirst.png" alt="Logo Header" id="logoHeader">
+            <div id="principalHeaderDiv">
+                <div id="headerDiv" class="d-flex">
+                    <div class="text-center px-2">
+                        <span class="fw-bold">NOTRE BUREAU</span><br>
+                        <span class="fw-lighter">123 rue, New York, États-Unis</span>
+                    </div>
+                    <div class="vr"></div>
+                    <div class="text-center px-2">
+                        <span class="fw-bold">ENVOYEZ-NOUS UN EMAIL</span><br>
+                        <span class="fw-lighter">info@exemple.com</span>
+                    </div>
+                    <div class="vr"></div>
+                    <div class="text-center px-2">
+                        <span class="fw-bold">APPELEZ-NOUS</span><br>
+                        <span class="fw-lighter">+012 345 6789</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="carouselSection">
+            <div id="carouselFade" class="carousel slide carousel-fade">
+                <div class="container-fluid d-flex justify-content-center position-absolute z-1">
+                    <ul class="list-group list-group-horizontal mt-4" id="list-group-horizontal-carou">
+                        <li class="list-group-item border-0 bg-transparent active-list-item">Maison</li>
+                        <li class="list-group-item border-0 bg-transparent text-white">À propos</li>
+                        <li class="list-group-item border-0 bg-transparent text-white">Prestations de service</li>
+                        <li class="list-group-item border-0 bg-transparent text-white">Gardes</li>
+                        <li class="list-group-item border-0 bg-transparent text-white d-flex">Pages <i
+                                class="fa-solid fa-sort-down text-white mx-1 "></i></li>
+                        <li class="list-group-item border-0 bg-transparent text-white">Contact</li>
+                    </ul>
+                </div>
+                <div id="textCarousel">
+                    <span id="secuCarousel">VOTRE SÉCURITÉ, NOS EFFORTS</span><br>
+                    <span id="gardesCarousel">
+                        <h1 class="mt-3">GARDES HAUTEMENT QUALIFIÉS</h1>
+                    </span><br>
+                    <button class="btn" id="apprendreCarousel">Apprendre encore plus</button>
+                </div>
+                <div class="carousel-inner z-0">
+                    <div class="carousel-item active">
+                        <img src="assets/images/carousel-1.jpg" class="d-block w-100" alt="Première image du carousel">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/carousel-2.jpg" class="d-block w-100" alt="Deuxième Image du carousel">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev" aria-hidden="true" id="carousel-control-prev"><i
+                            class="fa-solid fa-circle-chevron-left"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
+                    <span class="carousel-control-next" aria-hidden="true"><i
+                            class="fa-solid fa-circle-chevron-right"></i></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="troisiemeSectionHeader">
+            <ul class="list-group list-group-horizontal d-flex justify-content-around" id="listHeaderTrois">
+                <li class="list-group-item w-100 border-0 border-end d-flex p-5">
+                    <div class="mt-5"><i class="flaticon-policeman flaticon"></i></div>
+                    <div class="mt-5"><span class="fw-bold">PERSONNEL
+                            PROFESSIONNEL</span><br>
+                        <p class="fw-lighter text-lighter">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Mollitia ad
+                            asperiores sed animi delectus architecto?</p>
+                    </div>
+                </li>
+                <li class="list-group-item w-100 border-0 d-flex p-5">
+                    <div class="mt-5"><i class="flaticon-helmet flaticon"></i></div>
+                    <div class="mt-5"><span class="fw-bold">DERNIERS ÉQUIPEMENTS</span><br>
+                        <p class="fw-lighter text-lighter">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Mollitia ad
+                            asperiores sed animi delectus architecto?</p>
+                    </div>
+                </li>
+                <li class="list-group-item w-100 border-0 border-start d-flex p-5">
+                    <div class="mt-5"><i class="flaticon-surveillance flaticon"></i></div>
+                    <div class="mt-5"><span class="fw-bold">ASSISTANCE 24H/24 7J/7</span><br>
+                        <p class="fw-lighter text-lighter">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Mollitia ad
+                            asperiores sed animi delectus architecto?</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <section id="premiereSectionMain" class="d-flex">
+            <div id="divImagePremiere">
+                <img src="assets/images/about.jpg" alt="Photos de deux officiers">
+            </div>
+            <div id="divTextePremiere">
+                <div class="texteAbout">
+                    <span id="about">À PROPOS DE NOUS</span><br>
+                    <h2>15 ANS D'EXPÉRIENCE</h2>
+                    <p class="fw-lighter text-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequuntur aperiam sapiente nesciunt repellendus deleniti accusantium!</p><br>
+
+                    <div id="aboutIcones" class="d-flex">
+                        <div id="approuveDiv">
+                            <i class="flaticon-approved flaticon"></i><br>
+                            <span id="approuve" class="fw-bold">APPROUVÉ PAR LE GOUVERNEMENT</span><br>
+                            <p class="fw-lighter text-lighter">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Asperiores totam unde, mollitia nostrum quis sint!</p>
+                        </div>
+
+                        <div id="primeDiv">
+                            <i class="flaticon-medal flaticon"></i><br>
+                            <span class="fw-bold">PRIMÉ</span><br>
+                            <p class="fw-lighter text-lighter">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Perferendis reiciendis nihil vero, laboriosam illo odio.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn" id="apprendreMain">Apprendre encore plus</button>
+            </div>
+        </section>
+
+        <section id="servicesSection">
+            <h3 class="text-center mt-5">NOS SERVICES</h3>
+            <p class="fw-bold text-center" id="textServices">SERVICES DE SÉCURITÉ HAUT DE GAMME</p>
+            <div id="cardsContainerUn" class="d-flex justify-content-center mt-5">
+
+                <div class="cards">
+                    <img src="assets/images/service-1.jpg" class="card-img-top" alt="Personnel de sécurtié">
+                    <span class="span-cards"><i class="flaticon-desk"></i>
+                        <p>SÉCURITÉ DU BUREAU</p>
+                    </span>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="assets/images/service-2.jpg" class="card-img-top" alt="Deux officiers">
+                    <span class="span-cards"><i class="flaticon-home"></i>
+                        <p>SÉCURITÉ À DOMICILE</p>
+                    </span>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="assets/images/service-3.jpg" class="card-img-top"
+                        alt="Agent de sécurité avec un gilet jaune">
+                    <span class="span-cards"><i class="flaticon-factory"></i>
+                        <p>SÉCURITÉ DE L'INDUSTRIE</p>
+                    </span>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cardsContainerDeux" class="d-flex justify-content-center mt-4">
+                <div class="cards">
+
+                    <img src="assets/images/service-4.jpg" class="card-img-top" alt="Train">
+                    <span class="span-cards"><i class="flaticon-transportation"></i>
+                        <p>SÉCURITÉ DES TRANSPORTS</p>
+                    </span>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="assets/images/service-5.jpg" class="card-img-top" alt="Ouvriers">
+                    <span class="span-cards"><i class="flaticon-desk"></i>
+                        <p>SÉCURITÉ DES OBJETS</p>
+                    </span>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="assets/images/service-6.jpg" class="card-img-top" alt="CRS">
+                    <span class="span-cards"><i class="flaticon-bodyguard"></i>
+                        <p>SÉCURITÉ PRIVÉE</p>
+                    </span>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="separations" class="mt-5">
+            <div id="containerSeparationUn" class="d-flex justify-content-around">
+                <div id="equipe" class="text-center"><i class="fa-solid fa-user-shield"></i><br>
+                    <span>250</span>
+                    <p>NOTRE ÉQUIPE</p>
+                </div>
+                <div id="clientHeureux" class="text-center"><i class="fa-solid fa-users"></i><br>
+                    <span>1500</span>
+                    <p>CLIENTS HEUREUX</p>
+                </div>
+                <div id="projetTermine" class="text-center"><i class="fa-solid fa-shield-halved"></i><br>
+                    <span>10000</span>
+                    <p>PROJETS TERMINÉS</p>
+                </div>
+                <div id="prime" class="text-center"><i class="fa-solid fa-medal"></i>
+                    <span>25</span>
+                    <p>PRIMÉS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pourquoiSection" class="d-flex justify-content-center">
+            <div id="securiteHautNiveau">
+                <h4>POURQUOI NOUS CHOISIR?</h4>
+                <span class="fw-bold">SÉCURITÉ DE HAUT <br>NIVEAU</span>
+                <div class="cardPourquoi mt-3">
+                    <img src="assets/images/feature.jpg" alt="Personnel de sécurité devant des buildings">
+                </div>
+                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil at iusto officia sit sed
+                    nisi, assumenda nam, debitis delectus animi dolores, mollitia vero eos?
+                </p>
+                <button class="btn" id="apprendrePourquoi">Apprendre encore plus</button>
+            </div>
+
+            <div id="reponsePourquoi" class="d-flex">
+                <div id="premiereDivReponse">
+                    <i class="flaticon-policeman"></i><span>HAUTE SÉCURITÉ</span><br>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempora dicta
+                        tenetur, pariatur reiciendis, fuga sed praesentium, natus quo ea esse?</p>
+                    <i class="flaticon-approved"></i><span>APPROUVÉ PAR LE GOUVERNE...</span> <br>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempora dicta
+                        tenetur, pariatur reiciendis, fuga sed praesentium, natus quo ea esse?</p>
+                    <i class="flaticon-helmet"></i><span>DERNIERS ÉQUIPEMENTS</span><br>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempora dicta
+                        tenetur, pariatur reiciendis, fuga sed praesentium, natus quo ea esse?</p>
+                </div>
+                <div id="deuxiemeDivReponse">
+                    <i class="flaticon-bodyguard"></i><span>GARDES FORMÉS</span><br>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempora dicta
+                        tenetur, pariatur reiciendis, fuga sed praesentium, natus quo ea esse?</p>
+                    <i class="flaticon-medal"></i><span>PRIMÉ</span><br>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempora dicta
+                        tenetur, pariatur reiciendis, fuga sed praesentium, natus quo ea esse?</p>
+                    <i class="flaticon-surveillance"></i><span>ASSISTANCE 24H/24 ET 7J/7</span> <br>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempora dicta
+                        tenetur, pariatur reiciendis, fuga sed praesentium, natus quo ea esse?</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="separations" class="mt-5">
+            <h5>ABONNEZ-VOUS À NOTRE NEWSLETTER</h5>
+            <p class="text-center fw-lighter">Abonnez-vous et recevez notre dernier article dans votre boite de
+                réception</p>
+            <div id="separationInput" class="d-flex justify-content-center">
+                <input type="text" placeholder="Votre e-mail"><button class="btn" id="abonner">S'abonner</button>
+            </div>
+        </section>
+
+        <section id="securiteSection">
+            <h6 class="text-center mt-5">AGENTS DE SÉCURITÉ</h6>
+            <p class="fw-bold text-center" id="rencontreSpan">RENCONTREZ NOS AGENTS DE SÉCURITÉ</p>
+            <div class="containerOfficier justify-content-center mx-auto">
+                <div class="d-flex justify-content-center">
+                    <div class="text-end textLeft">
+                        <span class="fw-bold">NOM DE L'OFFICIER</span><br>
+                        Désignation<br>
+                        <p class="fw-lighter ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta inventore
+                            natus repellat iusto nemo aliquam tenetur!</p>
+                        <span class="reseauxSecurite">
+                            <i class="fa-brands fa-twitter px-1"></i>
+                            <i class="fa-brands fa-facebook px-1"></i>
+                            <i class="fa-brands fa-linkedin px-1"></i>
+                            <i class="fa-brands fa-square-instagram px-1"></i>
+                        </span>
+                    </div>
+                    <div class="cardSecurite mt-5">
+                        <img src="assets/images/team-1.jpg" alt="officier">
+                    </div>
+
+                    <div class="cardSecurite mt-5">
+                        <img src="assets/images/team-2.jpg" alt="officier">
+                    </div>
+                    <div class="textRight">
+                        <span class="fw-bold">NOM DE L'OFFICIER</span><br>
+                        Désignation
+                        <p class="fw-lighter">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta inventore
+                            natus repellat iusto nemo aliquam tenetur!</p>
+                        <span class="reseauxSecurite">
+                            <i class="fa-brands fa-twitter px-1"></i>
+                            <i class="fa-brands fa-facebook px-1"></i>
+                            <i class="fa-brands fa-linkedin px-1"></i>
+                            <i class="fa-brands fa-square-instagram px-1"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="containerOfficier d-flex justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-end textLeft">
+                        <span class="fw-bold">NOM DE L'OFFICIER</span><br>
+                        Désignation<br>
+                        <p class="fw-lighter">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta inventore
+                            natus repellat iusto nemo aliquam tenetur!</p>
+                        <span class="reseauxSecurite">
+                            <i class="fa-brands fa-twitter px-1"></i>
+                            <i class="fa-brands fa-facebook px-1"></i>
+                            <i class="fa-brands fa-linkedin px-1"></i>
+                            <i class="fa-brands fa-square-instagram px-1"></i>
+                        </span>
+                    </div>
+                    <div class="cardSecurite mt-5">
+                        <img src="assets/images/team-3.jpg" alt="officier">
+                    </div>
+
+                    <div class="cardSecurite mt-5">
+                        <img src="assets/images/team-4.jpg" alt="officier">
+                    </div>
+                    <div class="textRight">
+                        <span class="fw-bold">NOM DE L'OFFICIER</span><br>
+                        Désignation
+                        <p class="fw-lighter">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta inventore
+                            natus repellat iusto nemo aliquam tenetur!</p>
+                        <span class="reseauxSecurite">
+                            <i class="fa-brands fa-twitter px-1"></i>
+                            <i class="fa-brands fa-facebook px-1"></i>
+                            <i class="fa-brands fa-linkedin px-1"></i>
+                            <i class="fa-brands fa-square-instagram px-1"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="temoignageSection" class="mt-5">
+            <h6 class="text-center pt-5">TÉMOIGNAGE</h6>
+            <p class="text-center fw-bolder" id="temoignagep1">CE QUE DISENT NOS CLIENTS</p>
+            
+            <div id="carouselTemoignages" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-center temoignageContainer">
+                    <div class="temoignageUn">
+                      <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                        veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                        debitis reiciendis.</p>
+                      <div class="d-flex infoClient">
+                        <img src="assets/images/testimonial-2.jpg" alt="une personne">
+                        <div class="mt-2" style="margin-left: 10%;">
+                          <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                          <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="temoignageDeux">
+                      <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                        veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                        debitis reiciendis.</p>
+                      <div class="d-flex infoClient">
+                        <img src="assets/images/testimonial-3.jpg" alt="une personne">
+                        <div class="mt-2" style="margin-left: 10%;">
+                          <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                          <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="temoignageTrois">
+                      <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                        veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                        debitis reiciendis.</p>
+                      <div class="d-flex infoClient">
+                        <img src="assets/images/testimonial-4.jpg" alt="une personne">
+                        <div class="mt-2" style="margin-left: 10%;">
+                          <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                          <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center temoignageContainer">
+                        <div class="temoignageUn">
+                          <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                            veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                            debitis reiciendis.</p>
+                          <div class="d-flex infoClient">
+                            <img src="assets/images/testimonial-2.jpg" alt="une personne">
+                            <div class="mt-2" style="margin-left: 10%;">
+                              <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                              <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="temoignageDeux">
+                          <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                            veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                            debitis reiciendis.</p>
+                          <div class="d-flex infoClient">
+                            <img src="assets/images/testimonial-3.jpg" alt="une personne">
+                            <div class="mt-2" style="margin-left: 10%;">
+                              <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                              <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="temoignageTrois">
+                          <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                            veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                            debitis reiciendis.</p>
+                          <div class="d-flex infoClient">
+                            <img src="assets/images/testimonial-4.jpg" alt="une personne">
+                            <div class="mt-2" style="margin-left: 10%;">
+                              <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                              <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+          
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center temoignageContainer">
+                        <div class="temoignageUn">
+                          <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                            veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                            debitis reiciendis.</p>
+                          <div class="d-flex infoClient">
+                            <img src="assets/images/testimonial-2.jpg" alt="une personne">
+                            <div class="mt-2" style="margin-left: 10%;">
+                              <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                              <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="temoignageDeux">
+                          <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                            veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                            debitis reiciendis.</p>
+                          <div class="d-flex infoClient">
+                            <img src="assets/images/testimonial-3.jpg" alt="une personne">
+                            <div class="mt-2" style="margin-left: 10%;">
+                              <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                              <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="temoignageTrois">
+                          <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                            veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                            debitis reiciendis.</p>
+                          <div class="d-flex infoClient">
+                            <img src="assets/images/testimonial-4.jpg" alt="une personne">
+                            <div class="mt-2" style="margin-left: 10%;">
+                              <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                              <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+          
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center temoignageContainer">
+                        <div class="temoignageUn">
+                          <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                            veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                            debitis reiciendis.</p>
+                          <div class="d-flex infoClient">
+                            <img src="assets/images/testimonial-2.jpg" alt="une personne">
+                            <div class="mt-2" style="margin-left: 10%;">
+                              <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                              <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="temoignageDeux">
+                          <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                            veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                            debitis reiciendis.</p>
+                          <div class="d-flex infoClient">
+                            <img src="assets/images/testimonial-3.jpg" alt="une personne">
+                            <div class="mt-2" style="margin-left: 10%;">
+                              <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                              <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="temoignageTrois">
+                          <p class="fw-lighter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque
+                            veritatis excepturi enim facilis aperiam possimus earum fuga? Necessitatibus rerum dolorem
+                            debitis reiciendis.</p>
+                          <div class="d-flex infoClient">
+                            <img src="assets/images/testimonial-4.jpg" alt="une personne">
+                            <div class="mt-2" style="margin-left: 10%;">
+                              <span style="color: #e45f4e; font-size: 13px; font-weight: 500;">NOM DU CLIENT</span><br>
+                              <span style="font-size: 10px; font-weight: 200;">Profession</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+          
+              </div>
+          
+              <div id="btnTemoignageDiv" class="d-flex justify-content-center mt-5">
+                <button data-bs-target="#carouselTemoignages" data-bs-slide-to="0" class="boutonT active" onclick="changeActive(this)"></button>
+                <button data-bs-target="#carouselTemoignages" data-bs-slide-to="1" class="boutonT" onclick="changeActive(this)"></button>
+                <button data-bs-target="#carouselTemoignages" data-bs-slide-to="2" class="boutonT" onclick="changeActive(this)"></button>
+                <button data-bs-target="#carouselTemoignages" data-bs-slide-to="3" class="boutonT" onclick="changeActive(this)"></button>
+              </div>
+            </div>
+          
+          </section>
+
+        <section id="newsSection" class="pb-5">
+            <h6 class="text-center mt-5">BLOG RÉCENT</h6>
+            <p class="text-center fw-bolder" id="newsp">DERNIÈRES NOUVEAUTÉS DU BLOG</p>
+            <div id="containerCardsNews" class="d-flex justify-content-center">
+                <div class="cards">
+                    <img src="assets/images/blog-1.jpg" class="card-img-top" alt="Personnel de sécurtié">
+                    <span class="span-cards">
+                        <p>DIAM AMET EOS À NO ESOS</p><i class="fa-solid fa-link"></i>
+
+                    </span>
+                    <div class="card-body">
+                        <div class="divBodyNews d-flex justify-content-center"
+                            style="    background-color: rgba(203, 203, 203, 0.601);">
+                            <span>
+                                <i class="fa-solid fa-user"></i><br>
+                                Administrateur
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-folder"></i>Création de sites web
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-comments"></i><br>
+                                15
+                            </span>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="assets/images/blog-2.jpg" class="card-img-top" alt="Deux officiers">
+                    <span class="span-cards">
+                        <p>DIAM AMET EOS À NO ESOS</p><i class="fa-solid fa-link"></i>
+
+                    </span>
+                    <div class="card-body">
+                        <div class="divBodyNews d-flex justify-content-center"
+                            style="    background-color: rgba(203, 203, 203, 0.601);">
+                            <span>
+                                <i class="fa-solid fa-user"></i><br>
+                                Administrateur
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-folder"></i>Création de sites web
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-comments"></i><br>
+                                15
+                            </span>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="assets/images/blog-3.jpg" class="card-img-top"
+                        alt="Agent de sécurité avec un gilet jaune">
+                    <span class="span-cards">
+                        <p>DIAM AMET EOS À NO ESOS</p><i class="fa-solid fa-link"></i>
+
+                    </span>
+                    <div class="card-body">
+                        <div class="divBodyNews d-flex justify-content-center"
+                            style="    background-color: rgba(203, 203, 203, 0.601);">
+                            <span>
+                                <i class="fa-solid fa-user"></i><br>
+                                Administrateur
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-folder"></i>Création de sites web
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-comments"></i><br>
+                                15
+                            </span>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="containerFooter" class="d-flex">
+            <div id="divFooterUn" class="w-25 mt-5">
+                <img src="assets/images/logoFooter.png" alt="Logo Sécurité D'abord">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maxime fugit debitis ut sequi, minus
+                    consequatur sint porro molestiae? Et voluptate neque quos veniam necessitatibus architecto sed aut
+                    ipsum in? Modi facilis ullam itaque, deleniti numquam sint soluta amet saepe! Voluptatum culpa
+                    maiores inventore, laborum esse placeat facere quis non! Dolor laboriosam inventore vel iste
+                    laborum?</p>
+
+                <span id="copyright"><strong>© Nom de votre site.</strong> Tous droits réservés. Conçu par <strong>HMTL
+                        CODEX</strong></span>
+            </div>
+
+            <div id="divFooterDeux" class="w-25 mt-5">
+                <h6>LIENS RAPIDES</h6>
+                <ul class="text-white mt-4">
+                    <li><i class="fa-solid fa-angle-right"></i> Maison</li>
+                    <li><i class="fa-solid fa-angle-right"></i> À propos de nous</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Nos services</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Notre équipe</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Contactez-nous</li>
+                </ul>
+            </div>
+
+            <div id="divFooterTrois" class="w-25 mt-5">
+                <h6>LIENS POPULAIRES</h6>
+                <ul class="text-white mt-4">
+                    <li><i class="fa-solid fa-angle-right"></i> Maison</li>
+                    <li><i class="fa-solid fa-angle-right"></i> À propos de nous</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Nos services</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Notre équipe</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Contactez-nous</li>
+                </ul>
+            </div>
+
+            <div id="divFooterQuatre" class="w-25 mt-5">
+                <h6>ENTRER EN CONTACT</h6>
+                <ul class="text-white mt-4">
+                    <li><i class="fa-solid fa-location-dot"></i> 123 rue, New York, États-Unis</li>
+                    <li><i class="fa-solid fa-phone"></i>+012 345 67890</li>
+                    <li><i class="fa-solid fa-envelope"></i>info@example.com</li>
+                    <li id="reseauxFooter"><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook-f"></i><i
+                            class="fa-brands fa-linkedin-in"></i><i class="fa-brands fa-instagram"></i></li>
+                    <li id="dernierLi">Confidentialité Termes FAQ Aide</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
